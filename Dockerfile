@@ -68,7 +68,7 @@ RUN /bin/bash occ_tcl_build_wasm.sh
 
 # Build OCCT
 WORKDIR /opt
-RUN git clone --depth 1 --branch IR-2022-02-04 https://git.dev.opencascade.org/repos/occt.git opencascade
+RUN git clone --depth 1 --branch IR-2022-02-11 https://git.dev.opencascade.org/repos/occt.git opencascade
 
 ARG pthread
 
